@@ -1,0 +1,14 @@
+[
+  {
+    "RdbmsType": "SqlServer",
+    "Version": "2016",
+    "AvoidThis": "FASTFIRSTROW",
+    "UseThis": "SOME OTHER"
+  }, 
+  {
+    "RdbmsType": "SqlServer",
+    "Version": "2016",
+    "AvoidThis": "BAD",
+    "UseThis": "GOOD"
+  }
+]
