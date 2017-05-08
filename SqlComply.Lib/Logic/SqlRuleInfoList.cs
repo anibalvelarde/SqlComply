@@ -40,7 +40,7 @@ namespace SqlComply.Lib.Logic
             }
             return _brokenRules.Count.Equals(0);
         }
-        public IEnumerable<ISqlRuleInfo> BrokenRules
+        public IEnumerable<ISqlRuleInfo> BrokenSqlSyntaxRules
         {
             get { return _brokenRules; }
         }

@@ -10,6 +10,6 @@ namespace SqlComply.Lib.Contracts
     public interface ISqlRuleInfoList : IReadOnlyListBaseCore<ISqlRuleInfo>
     {
         bool Check(string sqlStatement);
-        IEnumerable<ISqlRuleInfo> BrokenRules { get; }
+        IEnumerable<ISqlRuleInfo> BrokenSqlSyntaxRules { get; }
     }
 }
